@@ -17,8 +17,7 @@ This project is focused on clean UI using **XML layouts** and **Kotlin** for log
 Check out how the app works:  
 
 [▶️ Watch Demo] 
-( demo/demo-video.mp4 )
-
+(./demo/demo-video.mp4)
 
 ---
 
