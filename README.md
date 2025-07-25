@@ -16,14 +16,9 @@ This project is focused on clean UI using **XML layouts** and **Kotlin** for log
 ## 🎥 Demo Video
 Check out how the app works:  
 
-[▶️ Watch Demo] (demo/demo-video.mp4)
+[▶️ Watch Demo] 
+( demo/demo-video.mp4 )
 
-*(Place your video in a `demo` folder at the root of the project with the name `demo-video.mp4`)*
-
----
-
-## 🖼️ Screenshots
-*(Add screenshots of your app here – Home screen, Spin Wheel, Profile, etc.)*
 
 ---
 
@@ -42,5 +37,3 @@ Check out how the app works:
 - **Backend**: *Not yet integrated (Future plans: Firebase / REST API)*  
 
 ---
-
-## 📂 Project Structure
