@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "654016288724",
+    "project_id": "thinkzy-d5fb7",
+    "storage_bucket": "thinkzy-d5fb7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654016288724:android:8a5cfc965113ffede6a841",
+        "android_client_info": {
+          "package_name": "com.example.thinkzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654016288724-rammi3rngflmdjnh3li73qhc4ucsnk1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thinkzy",
+            "certificate_hash": "8b7222a53fd9c7166f4d3b19c6e1a11c6204a4b1"
+          }
+        },
+        {
+          "client_id": "654016288724-8e25scna6iu5ang85jrj4imhql29febs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBsSb-oflMs2Dg03idDz94fN38tNLyyHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654016288724-8e25scna6iu5ang85jrj4imhql29febs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

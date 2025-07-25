@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF9A9A</color>
+    <color name="light_grey">#A9A9A9</color>
+    <color name="lightPurple">#9B7EBD</color>
+
+    <color name="btnColor">#333446</color>
+    <color name="textHint">#99000000</color>
+
+    <color name="green">#5A827E</color>
+    <color name="darkGreen">#5A827E</color>
+
+    <color name="purple">#BC73AA</color>
+
+
+</resources>

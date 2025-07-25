@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_bottom_sheet"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Withdrawal Money"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp"
+            android:fontFamily="@font/altoysitalic"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/kitten"
+            android:text="Total Coins"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_13sdp"
+            android:text="$1000"
+            android:fontFamily="@font/kitten"
+            android:textColor="#FFC300"
+            android:textSize="@dimen/_25sdp"
+            app:layout_constraintBottom_toBottomOf="@id/textView6"
+            app:layout_constraintStart_toEndOf="@id/textView6"
+            app:layout_constraintTop_toTopOf="@id/textView6" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000 coins = Rs 10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:fontFamily="@font/kitten"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@id/textView6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minimum Rs 500 | Maximum Rs 1000"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:fontFamily="@font/kitten"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@id/textView7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/amountEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_50sdp"
+            android:hint="Enter Amount"
+            android:textColorHint="#99000000"
+            android:textSize="@dimen/_18sdp"
+            android:background="@drawable/inputfield"
+            android:textColor="@color/black"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:inputType="number"
+            app:layout_constraintTop_toBottomOf="@id/textView8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/cardNumberEditText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_50sdp"
+            android:hint="Credit Card or PayPal"
+            android:textColorHint="#99000000"
+            android:textSize="@dimen/_18sdp"
+            android:background="@drawable/inputfield"
+            android:textColor="@color/black"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/amountEditText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btnTransfer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Withdraw"
+            android:fontFamily="@font/kitten"
+            android:textSize="@dimen/_20sdp"
+            android:letterSpacing="0.1"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:backgroundTint="@color/btnColor"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:paddingVertical="@dimen/_14sdp"
+            app:cornerRadius="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@id/cardNumberEditText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

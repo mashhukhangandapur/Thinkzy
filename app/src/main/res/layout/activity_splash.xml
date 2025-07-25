@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainSplash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient"
+    tools:context=".activities.SplashActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/splashAnimation"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_rawRes="@raw/confused"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:text=" Welcome"
+        android:letterSpacing="0.1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_40ssp"
+        android:textStyle="bold"
+        android:padding="@dimen/_5sdp"
+        android:fontFamily="@font/kitten"
+        app:layout_constraintEnd_toEndOf="@+id/splashAnimation"
+        app:layout_constraintStart_toStartOf="@+id/splashAnimation"
+        app:layout_constraintTop_toBottomOf="@+id/splashAnimation" />
+
+    <TextView
+        android:id="@+id/txtTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_42sdp"
+        android:text=" Fuel Your Brain.\nPlay Smart"
+        android:textColor="@color/white"
+        android:paddingTop="@dimen/_10sdp"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="italic"
+        android:letterSpacing="0.2"
+        android:textAlignment="center"
+        android:fontFamily="@font/kitten"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWelcome" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
