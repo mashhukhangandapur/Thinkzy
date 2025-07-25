@@ -19,9 +19,7 @@ Check out how the app works:
 [▶️ Watch Demo] 
 (./demo/demo-video.mp4)
 
-<video src="demo/demo-video.mp4" controls width="600">
-    Your browser does not support the video tag.
-</video>
+<video src="demo/demo-video.mp4" controls width="600"></video>
 
 ---
 
